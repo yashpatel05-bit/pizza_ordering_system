@@ -1,0 +1,190 @@
+[{
+  "_id": {
+    "$oid": "66e3b90d756ae09836f8d4aa"
+  },
+  "item_id": 1,
+  "item_name": "Momo Pizza Non Veg",
+  "description": "Epic combination of signature pan crust, delicious chicken momos topped with spicy Schezwan sauce\"",
+  "price": 220,
+  "item_img": "/item_img/1726399611703.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c540f8438da5b85dc236"
+  },
+  "item_id": 2,
+  "item_name": "Mazedar Makhni Paneer ",
+  "description": "A treat for all makhni lovers. Spiced paneer, onion, juicy red bell peppers with our new flavourful makhni sauce, topped with 100% mozzarella cheese and buttery spice sprinkle (PAN Per/Med-288 Kcal/100g |TnC-290 Kcal/100g)",
+  "price": 150,
+  "item_img": "/item_img/1726399808032.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c5d5f8438da5b85dc237"
+  },
+  "item_id": 3,
+  "item_name": "Awesome American Cheesy",
+  "description": "Our divine peruvian flavoured cheesy sauce, topped with sweet corn, green capsicum, red paprika and 100% mozzarella cheese, finished with a generous drizzle of texas garlic sauce",
+  "price": 170,
+  "item_img": "/item_img/1726399957295.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c669f8438da5b85dc238"
+  },
+  "item_id": 4,
+  "item_name": "Ultimate Tandoori Veggie ",
+  "description": "An ultimate combination of your favourite veggies- onion, green capsicum, mushroom, tomato, spicy jalapeno on tandoori sauce, topped with 100% mozzarella cheese & generous drizzle of mint mayo. (PAN Per/Med-314 Kcal/100g ",
+  "price": 150,
+  "item_img": "/item_img/1726400105462.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c6a4f8438da5b85dc239"
+  },
+  "item_id": 5,
+  "item_name": "Mexican Fiesta ",
+  "description": "Flavourful mix of red capsicum, green capsicum, jalapeno, onion, black olives, sweet corn and 100% mozzarella Cheese with a signature spice sprinkle & our flavourful pan sauce. ",
+  "price": 220,
+  "item_img": "/item_img/1726400164764.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c6e1f8438da5b85dc23a"
+  },
+  "item_id": 6,
+  "item_name": "Tandoori Paneer ",
+  "description": "It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+  "price": 180,
+  "item_img": "/item_img/1726400225859.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c735f8438da5b85dc23b"
+  },
+  "item_id": 7,
+  "item_name": "Corn And Cheese",
+  "description": " A combination of juicy Sweet Corn & 100% mozzarella cheese with flavourful signature pan sauce",
+  "price": 110,
+  "item_img": "/item_img/1726400309793.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c78ef8438da5b85dc23c"
+  },
+  "item_id": 8,
+  "item_name": "Country Feast ",
+  "description": "Crust filled with creamy cheese, base loaded with gooey liquid cheese, topped with 100% real mozzarella cheese, herbed onion & green capsicum, sweet corn & tomatoes",
+  "price": 250,
+  "item_img": "/item_img/1726400398845.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c7d1f8438da5b85dc23d"
+  },
+  "item_id": 9,
+  "item_name": "Veggie Supreme",
+  "description": " Crust filled with creamy cheese, base loaded with gooey liquid cheese, topped with 100% real mozzarella cheese, onion, green capsicum, mushroom, red paprika, black olive & sweet corn ",
+  "price": 145,
+  "item_img": "/item_img/1726400465881.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c807f8438da5b85dc23e"
+  },
+  "item_id": 10,
+  "item_name": "Classic Onion Capsicum ",
+  "description": "Pizza topped with our classic pan sauce, crunchy onion & capsicum and a flavourful dressing",
+  "price": 120,
+  "item_img": "/item_img/1726400519839.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c844f8438da5b85dc23f"
+  },
+  "item_id": 11,
+  "item_name": "Chatpata Tomato Onion And Chilli ",
+  "description": "Pizza topped with a spicy tandoori sauce, juicy tomato, crunchy onion & green chilli for an extra zing and a flavourful dressing. ",
+  "price": 120,
+  "item_img": "/item_img/1726400580913.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c885f8438da5b85dc240"
+  },
+  "item_id": 12,
+  "item_name": "Cheezy Sprinkled Fries",
+  "description": " Baked Fries with Cheezy Seasoning ",
+  "price": 89,
+  "item_img": "/item_img/1726400645171.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c8cff8438da5b85dc241"
+  },
+  "item_id": 13,
+  "item_name": "Exotica Veggie Garlic Bread ",
+  "description": "Hut's signature Garlic Bread topped with spiced exotic veggies and a flavourful dressing",
+  "price": 99,
+  "item_img": "/item_img/1726400719552.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c90df8438da5b85dc242"
+  },
+  "item_id": 14,
+  "item_name": "Tomato Twist Red Sauce Pasta",
+  "description": " Fusilli pasta baked in tangy flavorful tomato sauce infused with heavenly herbs & spices, along with green capsicum, onion and red capsicum ",
+  "price": 155,
+  "item_img": "/item_img/1726400781892.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c936f8438da5b85dc243"
+  },
+  "item_id": 15,
+  "item_name": "Classic Mushroom Pasta ",
+  "description": "Fusilli Pasta baked in classic mushroom sauce",
+  "price": 140,
+  "item_img": "/item_img/1726400822437.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c979f8438da5b85dc244"
+  },
+  "item_id": 16,
+  "item_name": "Brow wow nie ",
+  "description": "A divine choco brownie for your all time chocolate cravings ",
+  "price": 89,
+  "item_img": "/item_img/1726400889296.png"
+},
+{
+  "_id": {
+    "$oid": "66e6c9b1f8438da5b85dc245"
+  },
+  "item_id": 17,
+  "item_name": " Choco Volcano",
+  "description": " Warm choco cake with gooey cente",
+  "price": 99,
+  "item_img": "/item_img/1726400945899.png"
+},
+{
+  "_id": {
+    "$oid": "66e6ca2cf8438da5b85dc246"
+  },
+  "item_id": 18,
+  "item_name": "7UP - 475ml ",
+  "description": "7UP PET - 475ml Contains Caffeine",
+  "price": 87,
+  "item_img": "/item_img/1726401068107.png"
+},
+{
+  "_id": {
+    "$oid": "66e6ca77f8438da5b85dc247"
+  },
+  "item_id": 19,
+  "item_name": "Water Bottle - 1000ml",
+  "description": " Packaged Drinking Water, A PepsiCo Product -1000ml.",
+  "price": 49,
+  "item_img": "/item_img/1726401143226.png"
+}]

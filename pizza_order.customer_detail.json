@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "66d5db8af409ba33bbb08588"
+  },
+  "cust_id": 1,
+  "cust_name": "yash",
+  "address": "jujwa",
+  "city": "Valsad",
+  "mobile_no": "6351244794",
+  "email_id": "yash@gmail.com",
+  "pwd": "123456"
+},
+{
+  "_id": {
+    "$oid": "66d5dc23f409ba33bbb08589"
+  },
+  "cust_id": 2,
+  "cust_name": "Naman",
+  "address": "Tighra",
+  "city": "Valsad",
+  "mobile_no": "7069479101",
+  "email_id": "naman@gmail.com",
+  "pwd": "123456"
+},
+{
+  "_id": {
+    "$oid": "66d6f49fb632f0dcaddf00c7"
+  },
+  "cust_id": 3,
+  "cust_name": "Krish",
+  "address": "Gundlav",
+  "city": "Valsad",
+  "mobile_no": "9457842018",
+  "email_id": "krish@gmail.com",
+  "pwd": "123456"
+}]
