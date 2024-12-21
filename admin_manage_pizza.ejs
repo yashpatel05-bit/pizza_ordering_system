@@ -1,0 +1,140 @@
+<script>
+    function validation()
+    {
+      var v=/^[a-zA-Z 0-9._-]{2,50}$/
+      if(form1.txtname.value=="")
+      {
+        alert("Please Enter Product Name")
+        form1.txtname.focus();
+        return false;
+      }
+      else
+      {
+        if(!v.test(form1.txtname.value))
+        {
+          alert("Please Enter Only Alphabetical Name")
+          form1.txtname.focus();
+          return false;
+        }
+      }
+
+      if(form1.txtdesc.value=="")
+      {
+        alert("Please Enter Product Description")
+        form1.txtdesc.focus();
+        return false;
+      }
+
+      var v=/^[0-9]{1,7}$/
+      if(form1.txtprice.value=="")
+      {
+        alert("Please Enter product price")
+        form1.txtprice.focus();
+        return false;
+      }else if((parseInt(form1.txtprice.value))<=0)
+      {
+        alert("Please Enter Product Price Greater than 0")
+        form1.txtprice.focus();
+        return false;
+      }
+      else
+      {
+        if(!v.test(form1.txtprice.value))
+        {
+          alert("Please Enter Only Digits In Product Price")
+          form1.txtprice.focus();
+          return false;
+        }
+      }
+
+      var fname = document.getElementById("txtimg").value;
+      var ext = fname.substr(fname.lastIndexOf(".")+1).toString().toLowerCase();
+
+      if(document.getElementById("txtimg").value == "")
+      {
+        alert("Please Select Image");
+        return false;
+      }
+      else
+      {
+        if(!(ext=="png" || ext=="jpg" || ext=="webp" || ext=="jpeg"))
+        {
+            alert("Please Select Proper Product Image..");
+            return false;
+        }
+      }
+    }
+</script>
+<form method="post" action="/add_product" enctype="multipart/form-data" name="form1">
+    <h1 style="text-align: center; background-color: blanchedalmond; color: #8a2891;">Manage Items</h1>
+    <div class="col-md-6">
+    <div class="row my-5">
+      
+      <div class="col-md-6">
+    
+    
+    <div class="form-group">
+      <label for="exampleInputEmail1">Item Name</label>
+      <input type="text" class="form-control" name="txtname" placeholder="Enter Product Name">
+    </div>
+
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Description</label>
+        <textarea class="form-control" name="txtdesc" placeholder="Enter Description"></textarea>
+    </div>
+
+    
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Price</label>
+        <input type="text" class="form-control" name="txtprice" placeholder="Enter Price">
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Product Image</label>
+        <input type="file"  class="form-control" name="txtimg" id="txtimg">
+    </div>
+    
+    <button type="submit" class="btn btn-primary" onclick="return validation()">Save</button>
+  
+  
+    </div>
+    </div>
+    </div>
+</form>
+
+<div clas="col-md-12 mt-3">
+  <% if(itemdetail.length > 0){ %>
+    <table class="table table-bordered">
+      <tr>
+        <th> Item Id </th>
+        <th> Item Name </th>
+        <th> Description </th>
+        <th> Price </th>
+        <th> Item Image </th>
+        <th> Update </th>
+        <th> Delete </th>
+
+      </tr>
+      
+      <% for(i=0;i<itemdetail.length;i++) { %>
+        <tr>
+          <td><%= itemdetail[i].item_id %></td>
+          <td><%= itemdetail[i].item_name %></td>
+          <td><%= itemdetail[i].description %></td>
+          <td><%= itemdetail[i].price %></td>
+          <td><img src="<%= itemdetail[i].item_img %>" style="width: 150px; height: 150px;"> </td>
+          <td><a href="/edit_item/<%= itemdetail[i].item_id %>">Update</a></td>
+          <td><a href="/delete_item/<%= itemdetail[i].item_id %>">Delete</a></td>
+        
+        </tr>
+      <% } %>
+
+
+
+    </table>
+    <% } else{ %>
+    <h2> No item found...</h2>
+  <% } %>
+</div>

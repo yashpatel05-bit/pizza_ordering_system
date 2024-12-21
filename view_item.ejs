@@ -1,0 +1,32 @@
+<main>
+
+    <div class="conatiner mf-auto">
+        <div class="row" >
+            <div class="col-md-12 text-center">
+                <h2><b>Our Menu</b></h2>
+            </div>
+
+        </div> 
+        <div class="row">
+            <% if(idetail.length > 0) {%>
+                <% for(i=0;i<idetail.length;i++) {  %>
+                    <div class="col-md-4 mt-3 ml-auto p-5" >
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="<%= idetail[i].item_img %>" alt="item image">
+                            <div class="card-body">
+                              <h5 class="card-title"><%= idetail[i].item_name %></h5>
+                              <p class="card-text">Price: &#8377;<%= idetail[i].price %>/-  </p>
+                              <a href="#" class="btn btn-dark">Add To My Basket..</a>
+                            </div>
+                          </div>
+                    </div>
+                <% } %>
+            <% } else {%>
+                <h2>NO ITEM CURRENTLY AVALIABLE HERE</h2>
+            <% } %>
+        </div> 
+    </div>
+ 
+    
+     
+ </main>
